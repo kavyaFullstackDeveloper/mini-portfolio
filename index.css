@@ -12,8 +12,8 @@
     width: 100%;
     display: flex;
     background-color: #d6d3d3;
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
     justify-content: space-between;   
 }
 
@@ -46,7 +46,7 @@
     width: 100%;
     height: 500px;
     background-color: #d6d3d3;
-    padding-left: 5%;
+    padding-left: 10%;
     padding-right: 10%;
     padding-top: 30px;
     display: flex;
@@ -102,13 +102,14 @@
     border-radius: 30px; 
     padding: 30px;
 }
+
 .avtar{
     height: 440px;
 }
 
 .services{
     width: 100%;
-    padding: 30px 5%;
+    padding: 30px 10%;
 }
 
 .section-title{
@@ -123,7 +124,7 @@
     padding: 30px 0px;
     margin-top: 30px;
     display: flex;
-    column-gap: 4%;
+    column-gap: 3%;
 }
 
 .service{
@@ -135,6 +136,24 @@
     box-shadow: 0 0 2px gray;
     border-radius: 10px;
     font-family: 'Montserrat' ,sans-serif;
+}
+
+.achievements{
+    background-color: #ededed;
+    padding: 30px 10px;
+}
+
+.achievement{
+    width: 22%;
+   padding: 50px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat' ,sans-serif;
+    align-items: center;
+    row-gap: 11px;
+}
+.achievement-child{
+    column-gap: 2.5%;
 }
 
 .icon{
@@ -158,3 +177,105 @@
 }
 
 
+.number{
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.quote{
+    background-image: url("https://morweb.org/get/files/image/galleries/ngo-website-development.jpg");
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+}
+
+.overlay{
+    height: 100%;
+    width: 100%;
+    padding: 30px 10%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote-area{
+    width: 100%;
+    height: 400px;
+    padding: 30px 10%;
+}
+
+.clients{
+    width: 100%;
+    padding: 30px 10%;
+}
+.client-section-child{
+    column-gap: 5%;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.client-img{
+    width: 20%;
+    filter: grayscale(100%);
+    transition: .3s;
+    cursor: pointer;
+}
+
+.inp-email{
+    background-color: transparent;
+    outline: none;
+    width: 70%;
+    height: 60px;
+    border: 2px solid gray;
+    font-size: 20px;
+    text-indent: 20px;
+}
+
+::placeholder{
+    color: white;
+}
+
+.client-img:hover{
+     filter: grayscale(0);
+     transform: scale(1.2);
+}
+
+/* footer css */
+
+.footer{
+    background-color: gray;
+    width: 100%;
+    padding: 30px 10%;
+    color: white;
+    font-family: 'Montserrat' ,sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-child{
+    width: 22%;
+    padding:  10% 30px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+
+}
+
+.footer-list{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    row-gap: 7px;
+}
+
+.map{
+    padding: 0%;
+    width: 45%;
+    
+}
+
+.footer-map{
+    width: 100%;
+}
